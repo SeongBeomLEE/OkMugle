@@ -24,27 +24,27 @@ Ok Mugle!
 │   └── cos_sim_music_serving.ipynb             # 각 임베딩, rangking 별 결과
 │
 └── 5. web
-    ├── crawling                                # 결과창 구현을 위한 데이터 수집
-    │   └── melon_crawling.py 
-    │ 
-    ├── data                                    # 웹 제작에 활용된 데이터
-    │    ├── ranking_song_id2playlist.json
-    │    ├── song_id2artist_name_basket.json
-    │    ├── song_id2song_name.json
-    │    └── song_name_artist_name2song_id.json
-    │ 
-    ├── static                                  # 웹 제작에 활용된 css, font, image, js
-    │    ├── css
-    │    ├── fonts
-    │    ├── images
-    │    └── js
-    │ 
-    ├── templates                               # 프론트 구현
-    │    ├── about.html
-    │    ├── index.html
-    │    ├── people.html
-    │    └── result.html
-    │ 
-    └── server.py                               # 백엔드 구현
+     ├── crawling                                # 결과창 구현을 위한 데이터 수집
+     │   └── melon_crawling.py 
+     │ 
+     ├── data                                    # 웹 제작에 활용된 데이터
+     │    ├── ranking_song_id2playlist.json
+     │    ├── song_id2artist_name_basket.json
+     │    ├── song_id2song_name.json
+     │    └── song_name_artist_name2song_id.json
+     │ 
+     ├── static                                  # 웹 제작에 활용된 css, font, image, js
+     │    ├── css
+     │    ├── fonts
+     │    ├── images
+     │    └── js
+     │ 
+     ├── templates                               # 프론트 구현
+     │    ├── about.html
+     │    ├── index.html
+     │    ├── people.html
+     │    └── result.html
+     │ 
+     └── server.py                               # 백엔드 구현
 
 ```
