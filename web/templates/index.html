@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>ToBigs 13th Conference Music Recommendation</title>
+	<!--
+    Template 2106 Soft Landing
+	http://www.tooplate.com/view/2106-soft-landing
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="static/css/bootstrap.min.css">
+     <link rel="stylesheet" href="static/css/owl.carousel.css">
+     <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="static/css/font-awesome.min.css">
+     <link rel="stylesheet" href="static/css/jquery-ui.min.css">
+
+     <!-- SCRIPTS -->
+     <script src="static/js/jquery.js"></script>
+     <script src="static/js/bootstrap.min.js"></script>
+     <script src="static/js/jquery.stellar.min.js"></script>
+     <script src="static/js/owl.carousel.min.js"></script>
+     <script src="static/js/smoothscroll.js"></script>
+     <script src="static/js/custom.js"></script>
+     <script src="static/js/jquery-ui.min.js"></script>
+     <script src="static/js/data.js"></script>
+     <script src="static/js/autocomplete.js"></script>
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="static/css/tooplate-style.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+    <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="/" class="navbar-brand">OK Mugle! </a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                         <li><a href="/" class="smoothScroll" >Music Recommendation</a></li>
+                         <li><a href="/about" class="smoothScroll">About</a></li>
+                         <li><a href="/people" class="smoothScroll">People</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- Music Recommendation -->
+     <section id="music_recommendation" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-3 col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h3>13th Tobigs Conference</h3>
+                              <h1 style='font-weight:400;'>OK Mugle!</h1>
+
+                              <form action="/result" method="post" class="online-form">
+                                   <input id="searchInput" name="song_name_artist_name" type="text" class="form-control" placeholder="Enter Music Title!" required="">
+                                   <button type="submit" class="form-control">Search</button>
+                              </form>
+
+                              <h3>{{ fail_msg1 }}</h3>
+                              <h3>{{ fail_msg2 }}</h3>
+
+                         </div>
+                    </div>
+                             
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>ToBigs 13th Conference Music Recommendation</title>
+	<!--
+
+    Template 2106 Soft Landing
+
+	http://www.tooplate.com/view/2106-soft-landing
+
+    -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="static/css/bootstrap.min.css">
+     <link rel="stylesheet" href="static/css/owl.carousel.css">
+     <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="static/css/font-awesome.min.css">
+     <link rel="stylesheet" href="static/css/jquery-ui.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="static/css/tooplate-style.css">
+
+</head>
+
+<body>
+
+    <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="/" class="navbar-brand">OK Mugle! </a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                         <li><a href="/" class="smoothScroll" >Music Recommendation</a></li>
+                         <li><a href="/about" class="smoothScroll">About</a></li>
+                         <li><a href="/people" class="smoothScroll">People</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+     <!-- About -->
+     <!-- TESTIMONIAL -->
+     <section id="music_recommendation" data-stellar-background-ratio="0.5", style="padding-top: 5em;">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-sm-12">
+                         <br><br><br>
+                         <h2 style = "color: white; text-align: center; font-weight:400;"><b>OK Mugle! (장르부터 멜로디까지, Content-based Music Recommendation)</b></h2>
+                         <br><br><br>
+                         <img src="static/images/model.png" width="900" height="400" >
+                         <br><br><br><br>
+                         <h4 style = "color:white; text-align: center; ">본 프로젝트는 Melon Playlist Continuation 데이터를 가지고 위와 같은 과정으로 진행됐습니다.</h4>
+                         <h4 style = "color:white; text-align: center; ">프로젝트의 목표는 사용자가 선택한 노래와 유사한 노래를 추천해주는 것입니다. </h4>
+                         <h4 style = "color:white; text-align: center; ">유사한 노래를 멜로디, 분위기, 상황, 장르 등으로 정의하였고, 이를 반영하고자 Music2Vec, Time Convolutional AutoEncoder, ConsineEmbeddingLoss Multimodal 등의 모델을 만들어 다양한 Embedding을 생성했습니다. </h4>
+                         <h4 style = "color:white; text-align: center; ">Embedding의 Cosine Similarity를 구하여 Retrieval을 구성하고, 추천 결과를 Ensembel 하기 위해서 다양한 Ranking Method를 사용했습니다. </h4>
+                         <h4 style = "color:white; text-align: center; ">최종적으로 Score Total Top 10  Ranking Method의 추천 결과를 가지고 Web을 구현하여 본 모델을 Serving 했습니다.</h4>
+                    </div>
+
+                    
+               </div>
+          </div>
+     </section>
+</body>
+</html>
