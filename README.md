@@ -19,7 +19,7 @@
 
 ## Usage ✔️
 
-- Windows Shell에 아래와 같은 명령을 입력하여 실행합니다.
+- Windows Shell에 아래 명령을 입력하여 실행합니다.
 ```
 set FLASK_APP=server
 set FLASK_ENV=development
