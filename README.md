@@ -100,5 +100,7 @@ Ok Mugle!
      │    └── result.html
      │ 
      └── server.py                               # 백엔드 구현
-
+     │
+     └── requirements.txt                        # 필요 패키지 목록
+      
 ```
