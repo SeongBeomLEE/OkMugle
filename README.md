@@ -5,6 +5,57 @@
 
 ![발표 ppt(1차)_1](https://user-images.githubusercontent.com/87759826/149263884-f381c26d-18b0-43ba-9bda-a338cec3e53b.jpg)
 
+## Description 📖
+
+본 프로젝트에서는 Kakao Arena에서 제공하는 [Melon Playlist Continuation 데이터](https://arena.kakao.com/c/7)를 활용하여, **사용자가 검색한 노래와 유사한 노래 추천**을 구현하였습니다.
+
+![발표 ppt(1차)_8](https://user-images.githubusercontent.com/87759826/149267879-04742886-9df8-4e6f-885f-a23dab38ec14.jpg)
+
+1. **[Model]** '유사성'의 기준을 멜로디, 분위기, 상황, 장르 등으로 정의
+   - 해당 요소 반영하여 Music2Vec, Time Convolutional AutoEncoder, ConsineEmbeddingLoss Multimodal 등의 모델 Building
+2. **[Retrieval]** Embedding의 Cosine Similarity를 구하여 Retrieval 구성
+3. **[Ranking]** 다양한 Ranking Method 사용 → 추천 결과 Ensemble
+4. **[Serving]** 최종적으로 Score Total Top 10 Ranking Method의 추천 결과 활용하여 Web 구현 & 모델 Serving
+
+## Usage ✔️
+
+- Windows Shell에 아래와 같은 명령을 입력하여 실행합니다.
+```
+set FLASK_APP=server
+set FLASK_ENV=development
+flask run
+```
+
+## Result (Web) 💻
+
+- [웹(ToBigs 13th Conference Music Recommendation) 바로가기](http://kimkwonho.pythonanywhere.com/)
+- 웹 메인화면
+ 
+![웹 메인](https://user-images.githubusercontent.com/87759826/149278035-0165d162-b50e-4a49-86a2-8890597324c8.PNG)
+
+- 검색창에 '비투비 - 비밀 (Insane) (Acoustic Ver.)'를 검색한 결과 화면
+
+![웹 검색결과](https://user-images.githubusercontent.com/87759826/149282039-b572e682-198c-4e71-bcbe-4d99cfe1bea9.PNG)
+
+## Presentation 🙋
+
+- (데이터마켓 게시글 링크)
+- (유튜브 영상 링크)
+
+## Contributor 🧑‍🤝‍🧑
+
+|기수|이름|
+|:-----:|:-----:|
+|15기|[이성범](https://github.com/SeongBeomLEE)|
+|16기|[김권호](https://github.com/kkhv)|
+|16기|[박한나](https://github.com/hanna56)|
+|16기|[이승주](https://github.com/duduuman)|
+|16기|[이예림](https://github.com/YerimLee00)|
+|16기|[주지훈](https://github.com/jihunju8589)|
+|7기|[이광록](https://github.com/krlee407)(멘토)|
+
+## File Directory 📂
+
 ```shell
 Ok Mugle!
 ├── 1. preprocessig
@@ -51,51 +102,3 @@ Ok Mugle!
      └── server.py                               # 백엔드 구현
 
 ```
-
-## Description 📖
-
-본 프로젝트에서는 Kakao Arena에서 제공하는 [Melon Playlist Continuation 데이터](https://arena.kakao.com/c/7)를 활용하여, **사용자가 검색한 노래와 유사한 노래 추천**을 구현하였습니다.
-
-![발표 ppt(1차)_8](https://user-images.githubusercontent.com/87759826/149267879-04742886-9df8-4e6f-885f-a23dab38ec14.jpg)
-
-1. **[Model]** '유사성'의 기준을 멜로디, 분위기, 상황, 장르 등으로 정의
-   - 해당 요소 반영하여 Music2Vec, Time Convolutional AutoEncoder, ConsineEmbeddingLoss Multimodal 등의 모델 Building
-2. **[Retrieval]** Embedding의 Cosine Similarity를 구하여 Retrieval 구성
-3. **[Ranking]** 다양한 Ranking Method 사용 → 추천 결과 Ensemble
-4. **[Serving]** 최종적으로 Score Total Top 10 Ranking Method의 추천 결과 활용하여 Web 구현 & 모델 Serving
-
-## Usage ✔️
-
-- Windows Shell에 아래와 같은 명령을 입력하여 실행합니다.
-```
-set FLASK_APP=server
-set FLASK_ENV=development
-flask run
-```
-
-## Result (Web) 💻
-
-- 웹 메인화면
- 
-![웹 메인](https://user-images.githubusercontent.com/87759826/149278035-0165d162-b50e-4a49-86a2-8890597324c8.PNG)
-
-- 검색창에 '아이유 - 밤편지'를 검색한 결과 화면
-
-![웹 검색결과](https://user-images.githubusercontent.com/87759826/149278866-d1e365db-35f2-4f04-8fec-379ee7e462b2.PNG)
-
-## Presentation 🙋
-
-- (데이터마켓 게시글 링크)
-- (유튜브 영상 링크)
-
-## Contributor 🧑‍🤝‍🧑
-
-|기수|이름|
-|:-----:|:-----:|
-|15기|[이성범](https://github.com/SeongBeomLEE)|
-|16기|[김권호](https://github.com/kkhv)|
-|16기|[박한나](https://github.com/hanna56)|
-|16기|[이승주](https://github.com/duduuman)|
-|16기|[이예림](https://github.com/YerimLee00)|
-|16기|[주지훈](https://github.com/jihunju8589)|
-|7기|[이광록](https://github.com/krlee407)(멘토)|
