@@ -45,6 +45,7 @@ flask run
 ## Contributor 🧑‍🤝‍🧑
 
 - 본 프로젝트에는 [빅데이터 분석 및 인공지능 대표 연합동아리 ToBig's](http://www.datamarket.kr/xe/) 멤버들이 참여하였습니다.
+
 |기수|이름|
 |:-----:|:-----:|
 |15기|[이성범](https://github.com/SeongBeomLEE)|
