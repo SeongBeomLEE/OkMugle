@@ -1,13 +1,13 @@
 # Ok Mugle! :musical_note:
 ## 장르부터 멜로디까지, Content-based Music Recommendation
 
-'Ok Mugle!'은 [제13회 투빅스 컨퍼런스](http://www.datamarket.kr/xe/board_lhOx96/77271)(2022.01.15)에서 진행한 음악 추천 프로젝트입니다.
+- 'Ok Mugle!'은 [제13회 투빅스 컨퍼런스](http://www.datamarket.kr/xe/board_lhOx96/77271)(2022.01.15)에서 진행한 음악 추천 프로젝트입니다.
 
 ![발표 ppt(1차)_1](https://user-images.githubusercontent.com/87759826/149263884-f381c26d-18b0-43ba-9bda-a338cec3e53b.jpg)
 
 ## Description 📖
 
-본 프로젝트에서는 Kakao Arena에서 제공하는 [Melon Playlist Continuation 데이터](https://arena.kakao.com/c/7)를 활용하여, **사용자가 검색한 노래와 유사한 노래 추천**을 구현하였습니다.
+- 본 프로젝트에서는 Kakao Arena에서 제공하는 [Melon Playlist Continuation 데이터](https://arena.kakao.com/c/7)를 활용하여, **사용자가 검색한 노래와 유사한 노래 추천**을 구현하였습니다.
 
 ![발표 ppt(1차)_8](https://user-images.githubusercontent.com/87759826/149267879-04742886-9df8-4e6f-885f-a23dab38ec14.jpg)
 
