@@ -1,6 +1,8 @@
 # Ok Mugle! 
 ### 장르부터 멜로디까지, Content-based Music Recommendation
-투빅스 제 13회 컨퍼런스에서 진행한 음악 추천 프로젝트
+2022.01.15 [제13회 투빅스 컨퍼런스](http://www.datamarket.kr/xe/board_lhOx96/77271)에서 진행한 프로젝트입니다.
+![발표 ppt(1차)_1](https://user-images.githubusercontent.com/87759826/149263884-f381c26d-18b0-43ba-9bda-a338cec3e53b.jpg)
+
 
  ```shell
 Ok Mugle!
